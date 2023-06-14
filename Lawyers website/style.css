@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1e313e;
+    padding: 10px;
+}
+
+.item {
+    color: #efd3a2;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cover {
+    width: 100%;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-transform: uppercase;
+    color: #1e313e;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e313e;
+    padding: 60px;
+}
+
+.about-us {
+    align-self: center;
+    color: #efd3a2;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.book {
+    width: 300px;
+}
+
+.wrapper {
+    display: flex;
+    background-color: #1e313e;
+    padding: 80px;
+    color: #efd3a2;
+}
+
+.reason-block {
+    padding: 30px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.two {
+    padding: 10px;
+}
+
+span {
+    color: #efd3a2;
+    background-color: #1e313e;
+    padding: 30px;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 50%;
+    border: #bb8a5e 2px solid;
+    align-self: center;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    background-color: #1e313e;
+    padding: 60px;
+}
+
+.serv {
+    width: 80%;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e313e;
+}
+
+.text {
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    color:#efd3a2;
+    font-size: 16px;
+}
+
+.money {
+    width: 400px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    background-color: #1e313e;
+    padding: 60px;
+}
+
+.footer-container {
+    background-color: #1e313e;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    color:#efd3a2;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.one {
+    transition: 1s;
+}
+
+.one:hover {
+    transform: scale(1.2);
+}
+
+button {
+    padding: 30px;
+    font-size: 20px;
+    color: #efd3a2;
+    background-color: #1e313e;
+    border-radius: 50%;
+    border: #bb8a5e solid 0.5px;
+    font-family: "Montserrat", sans-serif;
+    transition: 1s;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: auto; /* Make sure it does not overlap */
+    border: #bb8a5e solid 0.5px; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#1e313e; /* Set a background color */
+    color: #efd3a2; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 16px; /* Increase font size */
+    font-family: "Montserrat", sans-serif;
+    width: 80px;
+}
+
+#myBtn:hover {
+    background-color: #1e313e; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
+@media all and (max-width: 500px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cover {
+        width: 100%;
+    }
+    
+    .heading {
+        font-size: 25px;
+    }
+    
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .about-us {
+        font-size: 16px;
+    }
+
+    .three {
+        text-align: center;
+    }
+    
+    .book {
+        width: 300px;
+    }
+    
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .reason-block {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        width: 350px;
+    }
+    
+    .services {
+        padding: 20px;
+    }
+    
+    .serv {
+        width: 300px;
+    }
+    
+    .text {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .money {
+        width: 300px;
+    }
+    
+    .map {
+        padding: 20px;
+    }
+}
+
+
+
+
+@media all and (max-width: 900px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .about-us {
+        text-align: center;
+    }
+    
+    .book {
+        width: 300px;
+    }
+
+    .three {
+        text-align: center;
+    }
+    
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .reason-block {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .services {
+        padding: 30px;
+    }
+    
+    .serv {
+        width: 300px;
+    }
+
+    .text {
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .money {
+        width: 300px;
+    }
+    
+    .map {
+        padding: 20px;
+    }
+}
